@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+
+<pagedata>
+<pyRuleAvailable>Yes</pyRuleAvailable>
+<pyInputMayStart>false</pyInputMayStart>
+<pyJavaClassName>Rule_Obj_Activity__baseclass_AlterDatabaseTable_Action_20260319T012234_414_GMT</pyJavaClassName>
+<pxUpdateSystemID>pega</pxUpdateSystemID>
+<pyRuleName>AlterDatabaseTable</pyRuleName>
+<pyXMLSignature>&lt;?xml version="1.0"?&gt;&lt;methodSignature&gt;&lt;pyStepsCallParams&gt;&lt;/pyStepsCallParams&gt;&lt;pyStepsPageAliases&gt;&lt;/pyStepsPageAliases&gt;&lt;/methodSignature&gt;</pyXMLSignature>
+<pyValueChanged>false</pyValueChanged>
+<pzIndexCount>6</pzIndexCount>
+<pyClassName>@baseclass</pyClassName>
+<pxUpdateDateTime>20260319T012417.280 GMT</pxUpdateDateTime>
+<pzRuleSetVersionMinor>01</pzRuleSetVersionMinor>
+<pxMoveImportOperName/>
+<pySortDateCircumWithinRSMajor>true</pySortDateCircumWithinRSMajor>
+<pyUsage/>
+<pzRuleSetVersionMajor>01</pzRuleSetVersionMajor>
+<pyJavaStream/>
+<pzRuleSetVersionPatch>01</pzRuleSetVersionPatch>
+<pxCreateDateTime>20260319T012234.414 GMT</pxCreateDateTime>
+<pxHostId>6ec07271d6f9428e5f40fcf851027d31</pxHostId>
+<pyCircumstanceDefinition/>
+<pyRuleSet>AICallAudit_Branch_AICallAuditFixes</pyRuleSet>
+<pyAssociatedImage/>
+<pyInterface/>
+<pySelected>false</pySelected>
+<pxInstanceLockedCreateDateTime/>
+<pxInstanceLockedBy>Pradeep</pxInstanceLockedBy>
+<pyCircumstanceVal/>
+<pyBaseRule>false</pyBaseRule>
+<pyCircumstanceDateProp/>
+<pxInsName>@BASECLASS!ALTERDATABASETABLE</pxInsName>
+<pxSaveDateTime>20260319T012531.952 GMT</pxSaveDateTime>
+<pyFormPost/>
+<pyMethodStatus/>
+<pyCircumstanceProp/>
+<pxInstanceLockedRuleSetVersion/>
+<pxCreatedInPRPCVersion>08-03</pxCreatedInPRPCVersion>
+<pxInstanceLockedDateTime>20260319T012531.952 GMT</pxInstanceLockedDateTime>
+<pyJavaGenerateVersion>03-01-01</pyJavaGenerateVersion>
+<pzInsKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzInsKey>
+<pyTaskStatusXml>&lt;pagedata&gt;&lt;/pagedata&gt;</pyTaskStatusXml>
+<pyTemplate/>
+<pzIsPrivateCheckOut/>
+<pxInsId>!ALTERDATABASETABLE</pxInsId>
+<pyActivityName>AlterDatabaseTable</pyActivityName>
+<pyRuleParamsStreamName/>
+<pyWorkKey/>
+<pyRuleSetVersion>01-01-01</pyRuleSetVersion>
+<pxInstanceLockedRuleSet/>
+<pyTemplateDisplayText>No ruleset versions available</pyTemplateDisplayText>
+<pyAuthenticatedOnly>true</pyAuthenticatedOnly>
+<pyActivityType>ACTIVITY</pyActivityType>
+<pzReindex>false</pzReindex>
+<pyJavaFUAVersion>03-02</pyJavaFUAVersion>
+<pyJavaGenerateTime>20260319T012416.597 GMT</pyJavaGenerateTime>
+<pxUpdateOpName>Pradeep</pxUpdateOpName>
+<pyWindowTitle/>
+<pxUpdateOperator>Pradeep</pxUpdateOperator>
+<pyCircumstanceType/>
+<pxMoveFromSystem/>
+<pzChecksum>1837627456</pzChecksum>
+<pyDescription/>
+<pxMoveImportOperId/>
+<pyDisplayMode>basic</pyDisplayMode>
+<pxInstanceLockedKey/>
+<pxMoveImportDateTime/>
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyTemplateInputBox/>
+<pyCircumstanceDate/>
+<pxCreateOperator>Pradeep</pxCreateOperator>
+<pyRuleStarts/>
+<pyRuleEnds/>
+<pyJavaGenerateAPIVersion>03-02</pyJavaGenerateAPIVersion>
+<pxCreateSystemID>pega</pxCreateSystemID>
+<pxLimitedAccess>Dev</pxLimitedAccess>
+<pxCommitDateTime>20260319T012532.214 GMT</pxCommitDateTime>
+<pyCircumstanceTemplate/>
+<pzOriginalInstanceKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzOriginalInstanceKey>
+<pyLabel>Alter Database Table</pyLabel>
+<pxCreateOpName>Pradeep</pxCreateOpName>
+<pyStreamName/>
+<pyOldActivityType>ACTIVITY</pyOldActivityType>
+<pzStatus>valid</pzStatus>
+<pySystemParameters REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamName>flowName</pyParametersParamName>
+<pyParametersParamDesc>subscript to the pxFlow page</pyParametersParamDesc>
+<pyParametersParamType>String</pyParametersParamType>
+<pyUsage>FLOW</pyUsage>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamName>flowType</pyParametersParamName>
+<pyParametersParamDesc>pyFlowType of the flow being run</pyParametersParamDesc>
+<pyParametersParamType>String</pyParametersParamType>
+<pyUsage>FLOW</pyUsage>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamName>ReferencePageName</pyParametersParamName>
+<pyParametersParamDesc>work object page name</pyParametersParamDesc>
+<pyParametersParamType>String</pyParametersParamType>
+<pyUsage>FLOW</pyUsage>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamName>ReferenceClass</pyParametersParamName>
+<pyParametersParamDesc>class of the work object</pyParametersParamDesc>
+<pyParametersParamType>String</pyParametersParamType>
+<pyUsage>FLOW</pyUsage>
+</rowdata>
+<rowdata REPEATINGINDEX="5">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamName>ReferenceInsKey</pyParametersParamName>
+<pyParametersParamDesc>pzInsKey of the work object</pyParametersParamDesc>
+<pyParametersParamType>String</pyParametersParamType>
+<pyUsage>FLOW</pyUsage>
+</rowdata>
+<rowdata REPEATINGINDEX="6">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamName>pyDraftMode</pyParametersParamName>
+<pyParametersParamDesc>flag for whether this flow is in draft mode or not</pyParametersParamDesc>
+<pyParametersParamType>TrueFalse</pyParametersParamType>
+<pyUsage>FLOW</pyUsage>
+</rowdata>
+</pySystemParameters>
+<pyActivityRolesList REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-Rule-ActivitySecurity</pxObjClass>
+<pyActivityRole/>
+</rowdata>
+</pyActivityRolesList>
+<pyParameters REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamIntelliValidateAs/>
+<pyParametersParamName/>
+<pyParametersParamDefaultValue/>
+<pyParametersParamIntelliRule/>
+<pyParametersParamIntelliBaseClass>PageClass</pyParametersParamIntelliBaseClass>
+<pyParametersParamDesc/>
+<pyParametersParamInOut>IN</pyParametersParamInOut>
+<pyParametersParamType>STRING</pyParametersParamType>
+<pyParametersParamReq>0</pyParametersParamReq>
+</rowdata>
+</pyParameters>
+<pxAPIMethodReferences REPEATINGTYPE="PageList"/>
+<pyStepsRepeatDef>
+</pyStepsRepeatDef>
+<pxWarnings REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-Warning</pxObjClass>
+<pxWarningSeverity>2</pxWarningSeverity>
+<pzIndexOwnerKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzIndexOwnerKey>
+<pxWarningMessage>(Rule-Obj-Activity)pxActivityUse</pxWarningMessage>
+<pxWarningType>Maintainability</pxWarningType>
+<pxWarningCreateOperator>Pradeep</pxWarningCreateOperator>
+<pxWarningRuleSetType>PEGA</pxWarningRuleSetType>
+<pxWarningName>Activity use</pxWarningName>
+<pxWarningCreatedTime>20260319T012416.644 GMT</pxWarningCreatedTime>
+<pxWarningDetails>(Rule-Obj-Activity)pxActivityUse</pxWarningDetails>
+<pzIndexes REPEATINGTYPE="PropertyGroup">
+<rowdata REPEATINGINDEX="Warnings">1</rowdata>
+</pzIndexes>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Embed-Warning</pxObjClass>
+<pxWarningSeverity>3</pxWarningSeverity>
+<pzIndexOwnerKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzIndexOwnerKey>
+<pxWarningMessage>(Rule-)pxPegaUnit</pxWarningMessage>
+<pxWarningType>Maintainability</pxWarningType>
+<pxWarningCreateOperator>Pradeep</pxWarningCreateOperator>
+<pxWarningRuleSetType>PEGA</pxWarningRuleSetType>
+<pxWarningName>Pega Unit Warning</pxWarningName>
+<pxWarningCreatedTime>20260319T012417.277 GMT</pxWarningCreatedTime>
+<pxWarningDetails>(Rule-)pxPegaUnit</pxWarningDetails>
+<pzIndexes REPEATINGTYPE="PropertyGroup">
+<rowdata REPEATINGINDEX="Warnings">0</rowdata>
+</pzIndexes>
+</rowdata>
+</pxWarnings>
+<pyActivityPrivilegeList REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-Rule-PrivilegeSecurity</pxObjClass>
+<pyPrivilegeName/>
+<pyPrivilegeClass>@baseclass</pyPrivilegeClass>
+</rowdata>
+</pyActivityPrivilegeList>
+<pyLocalParameters REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamName/>
+<pyParametersParamDesc/>
+<pyParametersParamType>String</pyParametersParamType>
+</rowdata>
+</pyLocalParameters>
+<pySteps REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pyStepActivityDescription/>
+<pyStepsBlockName/>
+<pyStepsActivityName>RDB-Save</pyStepsActivityName>
+<pxStepDefaultDescription>RDB-Save</pxStepDefaultDescription>
+<pyStepsTransition/>
+<pyOnException/>
+<pyStepsJavaSource/>
+<pyStepsDescription/>
+<pxObjClass>Embed-ActivitySteps</pxObjClass>
+<pyStepsObjectName/>
+<pyStepsPreCondition/>
+<pyPassCurrentParameterPage>false</pyPassCurrentParameterPage>
+<pyStepsCallParams>
+<pxObjClass/>
+<RunInParallel>false</RunInParallel>
+<Access>All</Access>
+<ClassName>@baseclass</ClassName>
+<pyStepsParamUIRemoved/>
+<RequestType>AlterTable</RequestType>
+<pyStepsParamUI REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamSmartPromptRule>RULEKEY</pyParametersParamSmartPromptRule>
+<pyParametersParamName>ClassName</pyParametersParamName>
+<pyParametersParamIntelliRule>Rule-Obj-Class</pyParametersParamIntelliRule>
+<pyParametersParamSmartPrompt>true</pyParametersParamSmartPrompt>
+<pyParametersParamDesc>The object class on which the browse is performed.</pyParametersParamDesc>
+<pyParametersParamInOut>true</pyParametersParamInOut>
+<pyParametersParamType>STRING</pyParametersParamType>
+<pyParametersParamReq>true</pyParametersParamReq>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamSmartPromptRule>RULEKEY</pyParametersParamSmartPromptRule>
+<pyParametersParamName>RequestType</pyParametersParamName>
+<pyParametersParamSmartPrompt>false</pyParametersParamSmartPrompt>
+<pyParametersParamDesc>The Type of the browse; allows different processing or sets of properties to be defined.  Defaults to Standard.  Key-part to the Rule-RDB-SQL instance.</pyParametersParamDesc>
+<pyParametersParamInOut>true</pyParametersParamInOut>
+<pyParametersParamType>STRING</pyParametersParamType>
+<pyParametersParamReq>true</pyParametersParamReq>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamSmartPromptRule>RULEKEY</pyParametersParamSmartPromptRule>
+<pyParametersParamName>Access</pyParametersParamName>
+<pyParametersParamSmartPrompt>false</pyParametersParamSmartPrompt>
+<pyParametersParamDesc>An indication of the database package used to access this table, from the INI file (currently ODBC).</pyParametersParamDesc>
+<pyParametersParamInOut>true</pyParametersParamInOut>
+<pyParametersParamType>STRING</pyParametersParamType>
+<pyParametersParamReq>true</pyParametersParamReq>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyParametersParamSmartPromptRule>RULEKEY</pyParametersParamSmartPromptRule>
+<pyParametersParamName>RunInParallel</pyParametersParamName>
+<pyParametersParamSmartPrompt>false</pyParametersParamSmartPrompt>
+<pyParametersParamDesc>If true, execute request asyncronously.</pyParametersParamDesc>
+<pyParametersParamInOut>true</pyParametersParamInOut>
+<pyParametersParamType>BOOLEAN</pyParametersParamType>
+<pyParametersParamReq>false</pyParametersParamReq>
+</rowdata>
+</pyStepsParamUI>
+</pyStepsCallParams>
+<pyStepsPageAliases>
+<pxObjClass/>
+</pyStepsPageAliases>
+<pyParamArray REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+<pyStepsParamUI REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-MethodParams</pxObjClass>
+</rowdata>
+</pyStepsParamUI>
+</rowdata>
+</pyParamArray>
+<pyStepsTransParams REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-ActivityTransitions</pxObjClass>
+<pyStepsTransParamsWhen/>
+<pxCreateOperator>Pradeep</pxCreateOperator>
+<pyStepsTransParamsWhenTruePrms/>
+<pyStepsTransParamsWhenFalse>2</pyStepsTransParamsWhenFalse>
+<pxCreateDateTime>20260319T012234.422 GMT</pxCreateDateTime>
+<pxCreateSystemID>pega</pxCreateSystemID>
+<pyStepsTransParamsWhenFalsePrms/>
+<pxCreateOpName>Pradeep</pxCreateOpName>
+<pyStepsTransParamsWhenTrue>2</pyStepsTransParamsWhenTrue>
+</rowdata>
+</pyStepsTransParams>
+<pyStepsPreCondParams REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-ActivityPreConditions</pxObjClass>
+<pyStepsPreCondParamsWhenTruePrms/>
+<pxCreateOperator>Pradeep</pxCreateOperator>
+<pyStepsPreCondParamsWhenTrue>2</pyStepsPreCondParamsWhenTrue>
+<pyStepsPreCondParamsWhenFalsePrms/>
+<pyStepsPreCondParamsWhenFalse>2</pyStepsPreCondParamsWhenFalse>
+<pxCreateDateTime>20260319T012234.416 GMT</pxCreateDateTime>
+<pxCreateSystemID>pega</pxCreateSystemID>
+<pxCreateOpName>Pradeep</pxCreateOpName>
+<pyStepsPreCondParamsWhen/>
+</rowdata>
+</pyStepsPreCondParams>
+<pyStepsRepeatDef>
+<pxObjClass>Embed-ActivityRepeat</pxObjClass>
+<pxCreateOperator>Pradeep</pxCreateOperator>
+<pyStepsRepeatDefStop/>
+<pxCreateDateTime>20260319T012234.423 GMT</pxCreateDateTime>
+<pyStepsRepeatDefIteration/>
+<pyStepsRepeatDefHasRepeat/>
+<pxCreateSystemID>pega</pxCreateSystemID>
+<pyForEachProperty/>
+<pxCreateOpName>Pradeep</pxCreateOpName>
+<pyStepsRepeatDefLimit/>
+<pyStepsRepeatDefStart/>
+<pyForEachValidClasses REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-ActivityForEachClasses</pxObjClass>
+<pxCreateOperator>Pradeep</pxCreateOperator>
+<pxCreateDateTime>20260319T012234.433 GMT</pxCreateDateTime>
+<pyForEachClass/>
+<pxCreateSystemID>pega</pxCreateSystemID>
+<pxCreateOpName>Pradeep</pxCreateOpName>
+</rowdata>
+</pyForEachValidClasses>
+</pyStepsRepeatDef>
+</rowdata>
+</pySteps>
+<pxRuleReferences REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-Reference-Rule</pxObjClass>
+<pxRuleClassName/>
+<pyRuleName>@baseclass All AlterTable</pyRuleName>
+<pyMethodStatus/>
+<pzIndexOwnerKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzIndexOwnerKey>
+<pxRuleObjClass>Rule-Connect-SQL</pxRuleObjClass>
+<pxRuleFamilyName>@BASECLASS!ALL!ALTERTABLE</pxRuleFamilyName>
+<pzIndexes REPEATINGTYPE="PropertyGroup">
+<rowdata REPEATINGINDEX="RuleReference">5</rowdata>
+</pzIndexes>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Embed-Reference-Rule</pxObjClass>
+<pxRuleClassName/>
+<pyRuleName>RDB-Save</pyRuleName>
+<pyMethodStatus>API</pyMethodStatus>
+<pzIndexOwnerKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzIndexOwnerKey>
+<pxRuleObjClass>Rule-Method</pxRuleObjClass>
+<pxRuleFamilyName>RDB-SAVE</pxRuleFamilyName>
+<pzIndexes REPEATINGTYPE="PropertyGroup">
+<rowdata REPEATINGINDEX="RuleReference">3</rowdata>
+</pzIndexes>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Embed-Reference-Rule</pxObjClass>
+<pxRuleClassName/>
+<pyRuleName>@baseclass All AlterTable</pyRuleName>
+<pyMethodStatus/>
+<pzIndexOwnerKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzIndexOwnerKey>
+<pxRuleObjClass>Rule-RDB-SQL</pxRuleObjClass>
+<pxRuleFamilyName>@BASECLASS!ALL!ALTERTABLE</pxRuleFamilyName>
+<pzIndexes REPEATINGTYPE="PropertyGroup">
+<rowdata REPEATINGINDEX="RuleReference">2</rowdata>
+</pzIndexes>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Embed-Reference-Rule</pxObjClass>
+<pxRuleClassName>@baseclass</pxRuleClassName>
+<pyRuleName>@baseclass</pyRuleName>
+<pyMethodStatus/>
+<pzIndexOwnerKey>RULE-OBJ-ACTIVITY @BASECLASS ALTERDATABASETABLE #20260319T012234.414 GMT</pzIndexOwnerKey>
+<pxRuleObjClass>Rule-Obj-Class</pxRuleObjClass>
+<pxRuleFamilyName>@BASECLASS</pxRuleFamilyName>
+<pzIndexes REPEATINGTYPE="PropertyGroup">
+<rowdata REPEATINGINDEX="RuleReference">4</rowdata>
+</pzIndexes>
+</rowdata>
+</pxRuleReferences>
+<pyPagesAndClasses REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Embed-PagesAndClasses</pxObjClass>
+<pyPagesAndClassesClass/>
+<pyPagesAndClassesPage/>
+<pyPagesAndClassesMode/>
+</rowdata>
+</pyPagesAndClasses>
+<pxNamedPageReferences REPEATINGTYPE="PageList"/>
+</pagedata>

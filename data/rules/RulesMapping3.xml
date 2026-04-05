@@ -1,0 +1,519 @@
+<?xml version="1.0"?>
+
+<pagedata>
+<pxObjClass>Index-Reference</pxObjClass>
+<pzStatus>valid</pzStatus>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Index-Reference</pxObjClass>
+<pyRuleType>Case Type</pyRuleType>
+<pyLabel>Audit</pyLabel>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Flow</pxObjClass>
+<pyRuleName>CreateForm_Default</pyRuleName>
+
+<pzInsKey>RULE-OBJ-FLOW HC-AICALLAUDIT-WORK-AUDIT CREATEFORM_DEFAULT #20250318T211949.286 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-FlowAction</pxObjClass>
+<pyRuleName>Create</pyRuleName>
+
+<pzInsKey>RULE-OBJ-FLOWACTION WORK- CREATE #20250319T201727.024 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-HTML-Section</pxObjClass>
+<pyRuleName>Create</pyRuleName>
+
+<pzInsKey>RULE-HTML-SECTION WORK- CREATE #20250318T212859.668 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-HTML-Fragment</pxObjClass>
+<pyRuleName>pzTextareaIncludes</pyRuleName>
+
+<pzInsKey>RULE-HTML-FRAGMENT PZTEXTAREAINCLUDES #20180713T133243.886 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-HTML-Section</pxObjClass>
+<pyRuleName>pzDesignTemplate1Column</pyRuleName>
+
+<pzInsKey>RULE-HTML-SECTION @BASECLASS PZDESIGNTEMPLATE1COLUMN #20190722T194316.547 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>WorkList</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- WORKLIST #20180713T133103.322 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>UpdateStatus</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- UPDATESTATUS #20200903T085745.008 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>hasMessages</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS HASMESSAGES #20180713T131426.419 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>Resolve</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- RESOLVE #20200917T084341.299 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>pxCheckFlowDependencies</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- PXCHECKFLOWDEPENDENCIES #20230618T003004.568 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>pzResolveCaseHierarchyMap</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- PZRESOLVECASEHIERARCHYMAP #20180713T133058.728 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="5">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>Resolved</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN WORK- RESOLVED #20180713T132434.508 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="6">
+<pxObjClass>Rule-Declare-DecisionTree</pxObjClass>
+<pyRuleName>pyCheckResolvedStatus</pyRuleName>
+
+<pzInsKey>RULE-DECLARE-DECISIONTREE WORK- PYCHECKRESOLVEDSTATUS #20180713T132929.433 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="7">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>pzLoadCaseHierarchyWrapper</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- PZLOADCASEHIERARCHYWRAPPER #20180713T133058.554 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>NewAssignment</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL ASSIGN-WORKLIST NEWASSIGNMENT #20180713T132406.968 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>pySetConfirmationNote</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL WORK- PYSETCONFIRMATIONNOTE #20180713T133123.443 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>NewDefaults</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY ASSIGN- NEWDEFAULTS #20180713T132044.650 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>ToCurrentOperator</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- TOCURRENTOPERATOR #20180713T133059.394 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>pyToAlternateOperator</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- PYTOALTERNATEOPERATOR #20180713T133053.936 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>ToCreateOperator</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- TOCREATEOPERATOR #20180713T132206.680 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Flow</pxObjClass>
+<pyRuleName>Review_Flow</pyRuleName>
+
+<pzInsKey>RULE-OBJ-FLOW HC-AICALLAUDIT-WORK-AUDIT REVIEW_FLOW #20250506T174253.749 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-FlowAction</pxObjClass>
+<pyRuleName>Review</pyRuleName>
+
+<pzInsKey>RULE-OBJ-FLOWACTION HC-AICALLAUDIT-WORK-AUDIT REVIEW #20250508T030058.348 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-HTML-Section</pxObjClass>
+<pyRuleName>CollectReview</pyRuleName>
+
+<pzInsKey>RULE-HTML-SECTION HC-AICALLAUDIT-WORK-AUDIT COLLECTREVIEW #20250428T010035.358 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>SendReviewMail</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY HC-AICALLAUDIT-WORK-AUDIT SENDREVIEWMAIL #20250508T025211.304 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>SendSimpleEmail</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- SENDSIMPLEEMAIL #20210823T131621.209 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>GenerateErrorSheet</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY HC-AICALLAUDIT-WORK-AUDIT GENERATEERRORSHEET #20250428T010026.008 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>AttachToWork</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY CODE-PEGA-PDF ATTACHTOWORK #20230618T003001.463 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>pyDefault</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL DATA-WORKATTACH-FILE PYDEFAULT #20181130T210814.748 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>pxRepositoryEnabled</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS PXREPOSITORYENABLED #20180713T140033.358 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>hasPrimaryPage</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS HASPRIMARYPAGE #20180713T131426.424 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>CallVirusCheck</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY DATA-WORKATTACH-FILE CALLVIRUSCHECK #20180713T132104.652 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="5">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>StepStatusFail</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS STEPSTATUSFAIL #20180713T131426.556 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="6">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>pzRemoveAttachments</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY @BASECLASS PZREMOVEATTACHMENTS #20180713T133007.862 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="7">
+<pxObjClass>Rule-Message</pxObjClass>
+<pyRuleName>WorkLock-WorkOpenFail</pyRuleName>
+
+<pzInsKey>RULE-MESSAGE @BASECLASS WORKLOCK-WORKOPENFAIL #20180713T132042.703 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="8">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>pxWebStorageEnabled</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS PXWEBSTORAGEENABLED #20180713T140033.362 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="9">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>pxCMISEnabled</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS PXCMISENABLED #20180713T140613.743 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>HTMLToPDF</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY @BASECLASS HTMLTOPDF #20190930T111901.495 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>pyPDFSettings</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL @BASECLASS PYPDFSETTINGS #20200417T073214.188 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-HTML-Fragment</pxObjClass>
+<pyRuleName>pzCompactPDFStyles</pyRuleName>
+
+<pzInsKey>RULE-HTML-FRAGMENT PZCOMPACTPDFSTYLES #20220608T072910.008 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>WorkBasket</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- WORKBASKET #20180713T133103.309 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>NewAssignment</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL ASSIGN-WORKBASKET NEWASSIGNMENT #20180713T132406.955 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Rule-Obj-Ticket</pxObjClass>
+<pyRuleName>TranscriptionError</pyRuleName>
+
+<pzInsKey>RULE-OBJ-TICKET HC-AICALLAUDIT-WORK-AUDIT TRANSCRIPTIONERROR #20250506T021120.636 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="5">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>CheckForError</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL HC-AICALLAUDIT-WORK-AUDIT CHECKFORERROR #20250428T005146.367 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="6">
+<pxObjClass>Rule-Declare-Pages</pxObjClass>
+<pyRuleName>D_GetAudioTranscript</pyRuleName>
+
+<pzInsKey>RULE-DECLARE-PAGES D_GETAUDIOTRANSCRIPT #20250422T142701.405 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Connect-REST</pxObjClass>
+<pyRuleName>GetAudioTranscript</pyRuleName>
+
+<pzInsKey>RULE-CONNECT-REST HC-INT-GETAUDIOTRANSCRIPT-GETAUDIOTRANSCRIPTAPI GETAUDIOTRANSCRIPT #20250422T142659.625 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>GetAudioTranscriptResponsePOST</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL HC-DATA-GETAUDIOTRANSCRIPT GETAUDIOTRANSCRIPTRESPONSEPOST #20250422T142700.720 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>GetAudioTranscriptRequestPOST</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL HC-INT-GETAUDIOTRANSCRIPT-GETAUDIOTRANSCRIPTAPI GETAUDIOTRANSCRIPTREQUESTPOST #20250422T142659.904 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="7">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>pzWorkBasket</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- PZWORKBASKET #20180713T133058.974 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="8">
+<pxObjClass>Rule-Obj-ServiceLevel</pxObjClass>
+<pyRuleName>pzWaitTimer</pyRuleName>
+
+<pzInsKey>RULE-OBJ-SERVICELEVEL @BASECLASS PZWAITTIMER #20180713T133128.453 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-FlowAction</pxObjClass>
+<pyRuleName>Approve</pyRuleName>
+
+<pzInsKey>RULE-OBJ-FLOWACTION @BASECLASS APPROVE #20180713T132310.051 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Access-Privilege</pxObjClass>
+<pyRuleName>AllFlowActions</pyRuleName>
+
+<pzInsKey>RULE-ACCESS-PRIVILEGE @BASECLASS ALLFLOWACTIONS #20180713T131939.201 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Access-Privilege</pxObjClass>
+<pyRuleName>ActionApprove</pyRuleName>
+
+<pzInsKey>RULE-ACCESS-PRIVILEGE @BASECLASS ACTIONAPPROVE #20180713T131939.111 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-HTML</pxObjClass>
+<pyRuleName>ActionApprove</pyRuleName>
+
+<pzInsKey>RULE-OBJ-HTML @BASECLASS ACTIONAPPROVE #20180713T132324.923 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Rule-HTML-Fragment</pxObjClass>
+<pyRuleName>ShowMe-HarnessInsert</pyRuleName>
+
+<pzInsKey>RULE-HTML-FRAGMENT SHOWME-HARNESSINSERT #20180713T131957.315 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="9">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>ToWorkbasket</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY WORK- TOWORKBASKET #20180713T132209.207 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="10">
+<pxObjClass>Rule-Obj-FlowAction</pxObjClass>
+<pyRuleName>pyContinueAfterWait</pyRuleName>
+
+<pzInsKey>RULE-OBJ-FLOWACTION WORK- PYCONTINUEAFTERWAIT #20220125T105949.038 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-HTML-Section</pxObjClass>
+<pyRuleName>pyContinueAfterWait</pyRuleName>
+
+<pzInsKey>RULE-HTML-SECTION WORK- PYCONTINUEAFTERWAIT #20230618T002044.987 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>pyContinueAfterWaitPre</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL WORK- PYCONTINUEAFTERWAITPRE #20220125T105949.049 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="11">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>PerformCallAudit</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY HC-AICALLAUDIT-WORK-AUDIT PERFORMCALLAUDIT #20250428T005140.606 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>PerformAuditUsingAWS</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY HC-AICALLAUDIT-WORK-AUDIT PERFORMAUDITUSINGAWS #20250428T005138.381 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Declare-Pages</pxObjClass>
+<pyRuleName>D_GetCallAuditSummary</pyRuleName>
+
+<pzInsKey>RULE-DECLARE-PAGES D_GETCALLAUDITSUMMARY #20250421T211729.829 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>GenerateTranscriptFile</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY HC-AICALLAUDIT-WORK-AUDIT GENERATETRANSCRIPTFILE #20250428T010026.643 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>MapQuestionTypes</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL HC-AICALLAUDIT-WORK-AUDIT MAPQUESTIONTYPES #20250428T005154.700 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>Toggle_UseAWSSolution20250414T232500</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS TOGGLE_USEAWSSOLUTION20250414T232500 #20250428T005107.673 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>PerformAudit</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY HC-AICALLAUDIT-WORK-AUDIT PERFORMAUDIT #20250506T174655.057 GMT</pzInsKey>
+<pxResults REPEATINGTYPE="PageList">
+<rowdata REPEATINGINDEX="1">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>pxPostMessage</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY @BASECLASS PXPOSTMESSAGE #20180713T134516.234 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="2">
+<pxObjClass>Rule-Declare-Pages</pxObjClass>
+<pyRuleName>D_GetChecklistByQuestionType</pyRuleName>
+
+<pzInsKey>RULE-DECLARE-PAGES D_GETCHECKLISTBYQUESTIONTYPE #20250324T012929.144 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>SetPromptData</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL HC-AICALLAUDIT-WORK-AUDIT SETPROMPTDATA #20250428T005200.361 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="4">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>GetTranscriptionStream</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY HC-AICALLAUDIT-WORK-AUDIT GETTRANSCRIPTIONSTREAM #20250428T010028.830 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="5">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>MapCustomerDetails</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL HC-AICALLAUDIT-WORK-AUDIT MAPCUSTOMERDETAILS #20250428T005152.420 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="6">
+<pxObjClass>Rule-Declare-Pages</pxObjClass>
+<pyRuleName>D_AttachmentContent</pyRuleName>
+
+<pzInsKey>RULE-DECLARE-PAGES D_ATTACHMENTCONTENT #20200303T162035.364 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="7">
+<pxObjClass>Rule-Declare-Pages</pxObjClass>
+<pyRuleName>D_GeminiProVision</pyRuleName>
+
+<pzInsKey>RULE-DECLARE-PAGES D_GEMINIPROVISION #20240827T230321.709 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="8">
+<pxObjClass>Rule-Declare-Pages</pxObjClass>
+<pyRuleName>D_CallAuditCheckListList</pyRuleName>
+
+<pzInsKey>RULE-DECLARE-PAGES D_CALLAUDITCHECKLISTLIST #20250322T063542.842 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="9">
+<pxObjClass>Rule-Obj-When</pxObjClass>
+<pyRuleName>Always</pyRuleName>
+
+<pzInsKey>RULE-OBJ-WHEN @BASECLASS ALWAYS #20180713T132425.825 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="10">
+<pxObjClass>Rule-Obj-Model</pxObjClass>
+<pyRuleName>PopulationAuditQuestions</pyRuleName>
+
+<pzInsKey>RULE-OBJ-MODEL HC-AICALLAUDIT-WORK-AUDIT POPULATIONAUDITQUESTIONS #20250428T005158.337 GMT</pzInsKey>
+</rowdata>
+<rowdata REPEATINGINDEX="11">
+<pxObjClass>Rule-Obj-Activity</pxObjClass>
+<pyRuleName>SetTicket</pyRuleName>
+
+<pzInsKey>RULE-OBJ-ACTIVITY @BASECLASS SETTICKET #20180713T133008.220 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</rowdata>
+<rowdata REPEATINGINDEX="3">
+<pxObjClass>Rule-Obj-Flow</pxObjClass>
+<pyRuleName>Resolve_Flow</pyRuleName>
+
+<pzInsKey>RULE-OBJ-FLOW HC-AICALLAUDIT-WORK-AUDIT RESOLVE_FLOW #20250409T023607.636 GMT</pzInsKey>
+</rowdata>
+</pxResults>
+</rowdata>
+</pxResults>
+</pagedata>
