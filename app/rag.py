@@ -1,13 +1,9 @@
 import os
-import numpy as np
-import faiss
-from openai import OpenAI
-
-client = OpenAI()
+import re
 
 documents = []
-index = None
 
+# 🔹 Load XML files
 def load_documents():
     docs = []
     folder = "data/rules"
@@ -15,38 +11,75 @@ def load_documents():
     for file in os.listdir(folder):
         if file.endswith(".xml"):
             with open(os.path.join(folder, file), "r", encoding="utf-8") as f:
-                docs.append(f.read())
+                content = f.read()
+                docs.append({
+                    "content": content,
+                    "filename": file
+                })
 
     return docs
 
-def chunk_text(text, size=500):
-    return [text[i:i+size] for i in range(0, len(text), size)]
 
-def get_embedding(text):
-    return client.embeddings.create(
-        model="text-embedding-3-small",
-        input=text
-    ).data[0].embedding
+# 🔹 Extract keywords from query
+def extract_keywords(text):
+    text = text.lower()
+    words = re.findall(r'\b\w+\b', text)
 
+    # remove common words
+    stopwords = {"the", "is", "to", "a", "for", "and", "of"}
+    return [w for w in words if w not in stopwords]
+
+
+# 🔹 Detect rule type
+def detect_rule_type(query):
+    query = query.lower()
+
+    if "activity" in query:
+        return "activity"
+    elif "flow" in query:
+        return "flow"
+    elif "section" in query:
+        return "section"
+    
+    return None
+
+
+# 🔹 Build index (just load data)
 def build_index():
-    global documents, index
+    global documents
+    documents = load_documents()
+    print(f"Loaded {len(documents)} XML files")
 
-    raw_docs = load_documents()
 
-    documents = []
-    for doc in raw_docs:
-        documents.extend(chunk_text(doc))
-
-    vectors = [get_embedding(doc) for doc in documents]
-
-    dim = len(vectors[0])
-    index = faiss.IndexFlatL2(dim)
-    index.add(np.array(vectors).astype("float32"))
-
-    print("Index built:", len(documents))
-
+# 🔹 Smart retrieval
 def retrieve(query, k=3):
-    q_vec = get_embedding(query)
-    D, I = index.search(np.array([q_vec]).astype("float32"), k)
+    keywords = extract_keywords(query)
+    rule_type = detect_rule_type(query)
 
-    return [documents[i] for i in I[0]]
+    scored_docs = []
+
+    for doc in documents:
+        text = doc["content"].lower()
+
+        score = 0
+
+        # 🔹 Keyword matching score
+        for word in keywords:
+            if word in text:
+                score += 2
+
+        # 🔹 Rule type boost
+        if rule_type and rule_type in text:
+            score += 5
+
+        # 🔹 Filename boost
+        if any(word in doc["filename"].lower() for word in keywords):
+            score += 3
+
+        scored_docs.append((score, doc["content"]))
+
+    # Sort by score
+    scored_docs.sort(reverse=True, key=lambda x: x[0])
+
+    # Return top k
+    return [doc for score, doc in scored_docs[:k] if score > 0]
