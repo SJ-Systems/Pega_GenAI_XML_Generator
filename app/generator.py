@@ -1,32 +1,26 @@
 from openai import OpenAI
-import os
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI()
 
-def build_prompt(user_prompt, context, rule_type):
-    examples = "\n\n".join(context)
+def generate_xml(prompt, context):
+    context_text = "\n\n".join(context)
 
-    return f"""
+    final_prompt = f"""
 You are a Pega XML generator.
-
-RULE TYPE: {rule_type}
 
 STRICT RULES:
 - Output ONLY XML
-- No explanations
+- No explanation
 - Ensure valid XML
 
-EXAMPLES:
-{examples}
+REFERENCE XML:
+{context_text}
 
 USER REQUEST:
-{user_prompt}
+{prompt}
 
 GENERATE XML:
 """
-
-def generate_xml(prompt, context, rule_type):
-    final_prompt = build_prompt(prompt, context, rule_type)
 
     response = client.responses.create(
         model="gpt-4.1-mini",
